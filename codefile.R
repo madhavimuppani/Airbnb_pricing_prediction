@@ -1,7 +1,6 @@
 ---
-  title: "Python Project"
-author: "Srinivas"
-date: "2024-04-20"
+  title: "Airbnb Project"
+author: "Madhavi"
 output: html_document
 ---
   
@@ -14,7 +13,7 @@ library(shinydashboard)
 library(caret)
 
 # Load the data
-airbnb_data <- read_excel("~/Downloads/df3file.xlsx")
+airbnb_data <- read_excel("~/Downloads/dataset.xlsx")
 # Convert price from character to numeric
 airbnb_data$price <- as.numeric(gsub("[$,]", "", airbnb_data$price))
 
